@@ -1,0 +1,49 @@
+.content {
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.settings {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.banner {
+    border-radius: 20px;
+    width: 50%;
+    height: 60vh;
+    align-self: center;
+    padding: 8px;
+    opacity: 80%;
+}
+
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner {
+        width: 85%;
+        height: 40vh;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .settings {
+        width: 100%;
+    }
+}
+
+.settings__select {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+}

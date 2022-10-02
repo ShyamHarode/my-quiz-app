@@ -1,0 +1,15 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    align-self: center;
+}

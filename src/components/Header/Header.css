@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.divider {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: grey;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
